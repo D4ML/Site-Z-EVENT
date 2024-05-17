@@ -1,2 +1,46 @@
 @import url(/node_modules/bootstrap-icons/font/bootstrap-icons.css);
-@import 'custom'
+@import 'custom';
+
+
+html{
+    position: relative;
+    min-height: 100%;
+}
+main{
+    margin-bottom: 110px;
+}
+.navbar-brand{
+        background: linear-gradient(
+        to right, 
+        rgb(24, 4, 212), 
+        rgb(5, 226, 255),
+        rgb(0, 255, 0)
+      );
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+footer.footer{
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+}
+footer h4{
+    background: linear-gradient(
+        to right, 
+        rgb(24, 4, 212), 
+        rgb(5, 226, 255),
+        rgb(0, 255, 0)
+      );
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    }
+footer i{
+    padding: 15px;
+    color: green;
+}
