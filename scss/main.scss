@@ -7,9 +7,15 @@ html{
     min-height: 100%;
 }
 main{
-    margin-bottom: 110px;
+    margin-bottom: 110px; 
+    background-image: url(../img/black.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
 }
 .navbar-brand{
+    font-size: 55px;
         background: linear-gradient(
         to right, 
         rgb(24, 4, 212), 
@@ -21,12 +27,24 @@ main{
     -webkit-text-fill-color: transparent;
     cursor: pointer;
 }
+.nav-item a{
+    font-size: 1.8rem;
+    color: white;
+    margin-left: 1.5rem;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+    border-bottom: 3px solid transparent;
+}
+.nav-item a:hover,
+.nav-item a.active {
+    color: green;
+    border-bottom: 3px solid green;
+}
 footer.footer{
-  padding: 15px;
+  padding: 18px;
   position: absolute;
   bottom: 0;
   width: 100%;
-
 }
 footer h4{
     background: linear-gradient(
@@ -40,7 +58,9 @@ footer h4{
     -webkit-text-fill-color: transparent;
     cursor: pointer;
     }
-footer i{
+footer a{
+    font-size: 30px;
+    margin-top: 2;
     padding: 15px;
     color: green;
 }
